@@ -31,7 +31,9 @@ class MultiDerived(Base1, Base2):
 ```
 
 Here, MultiDerived is derived from classes Base1 and Base2.
- ![](images/Multiple_Inheritance.jpg)
+ 
+![](images/Multiple_Inheritance.jpg)
+
 The class MultiDerived inherits from both Base1 and Base2.
 
 3. Multilevel inheritance:  We can also inherit form a derived class. This is called multilevel inheritance. It can be of any depth in Python.
@@ -51,6 +53,7 @@ class Derived2(Derived1):
 ```
 
 Here, Derived1 is derived from Base, and Derived2 is derived from Derived1.
+
  ![](images/Multilevel_Inheritance.jpg)
 
 #### Method Resolution Order (MRO)
