@@ -1,4 +1,4 @@
-## Namespace and Variable Scope
+## Namespace & Variable Scope
 
 Namespace is basically a system which is use to control all the names(object) we use in our program.It will assure that whatever the name we use is unique and wounld not make any conflict. Namespace allow us to reuse the name.
 	
