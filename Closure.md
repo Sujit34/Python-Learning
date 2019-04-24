@@ -99,4 +99,4 @@ print(times5(times3(2)))
 
 ```
 
- > sourc: www.programiz.com/python-programming/closure
+ > source: www.programiz.com/python-programming/closure
