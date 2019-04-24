@@ -133,3 +133,5 @@ Whee!
 The .__init__() method must store a reference to the function and can do any other necessary initialization. The .__call__() method will be called instead of the decorated function. It does essentially the same thing as the wrapper() function in our earlier examples. Note that you need to use the functools.update_wrapper() function instead of @functools.wraps.
 
 This @CountCalls decorator works the same as the one in the previous section.
+
+ > source: www.realpython.com
