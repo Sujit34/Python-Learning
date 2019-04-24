@@ -98,3 +98,5 @@ print(times5(3))
 print(times5(times3(2)))
 
 ```
+
+ > sourc: www.programiz.com/python-programming/closure
