@@ -115,4 +115,4 @@ if __name__ == "__main__":
 In main.py file, config object is overridden with given dictionary object. EmailReader class was instantiated without instantiating EmailClient class in main file, removing the overhead of importing or creating it. That part is taken care by containers file.
 
 
-
+ > Source: Medium (Author: Shivam Aggarwal)
