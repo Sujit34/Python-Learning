@@ -4,6 +4,7 @@ Python has the two comparison operators == and is. At first sight they seem to b
 
 The next example demonstrates that for three variables with integer values. The two variables a and b have the same value, and Python refers to the same object in order to minimize memory usage.
 
+```python
 
 >>> a = 1
 >>> b = 1
@@ -16,3 +17,4 @@ False
 10771520  
 >>> id(b)
 10771520  
+```
