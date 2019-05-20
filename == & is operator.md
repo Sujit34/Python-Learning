@@ -18,3 +18,15 @@ False
 >>> id(b)
 10771520  
 ```
+
+As soon as the value changes Python will reinstantiate the object and assign the variable. In the next code snippet b gets the value of 2, and subsequently b and c refer to the same object.
+
+```python
+>>> b = 2
+>>> id(b)
+10771552  
+>>> id(c)
+10771552  
+```
+
+A rule of thumb to follow is to use == when comparing immutable types (like ints) and is when comparing objects.
